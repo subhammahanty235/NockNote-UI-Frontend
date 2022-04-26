@@ -1,13 +1,66 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Pacifico&family=Quicksand&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+i {
+  color: black;
+}
+
+input,
+textarea {
+  -webkit-box-shadow: 6px 7px 38px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 7px 38px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 7px 38px -8px rgba(0, 0, 0, 0.75);
+
+}
+
+#navbar {
+  -webkit-box-shadow: 0px 23px 91px -1px rgba(179, 255, 179, 1);
+  -moz-box-shadow: 0px 23px 91px -1px rgba(179, 255, 179, 1);
+  box-shadow: 0px 23px 91px -1px rgba(179, 255, 179, 1);
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+#indicator {
+  display: inline;
+  width: 30px !important;
+  height: 10px !important;
+  color: blueviolet;
+  background-color: aqua;
+  border: 2px solid black;
+  /* border-radius: 50%; */
+}
+
+.dot-green {
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  margin: 0px 30px;
+  background-color: rgba(17,225,101,0.69);
+  box-shadow: 10px 3px 50px 21px rgba(17,225,101,0.69);
+-webkit-box-shadow: 10px 3px 50px 21px rgba(17,225,101,0.69);
+-moz-box-shadow: 10px 3px 50px 21px rgba(17,225,101,0.69);
+overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-red {
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  margin: 0px 30px;
+  background-color: rgba(225,17,66,0.69);
+  box-shadow: 10px 3px 50px 21px rgba(225,17,66,0.69);
+-webkit-box-shadow: 10px 3px 50px 21px rgba(225,17,66,0.69);
+-moz-box-shadow: 10px 3px 50px 21px rgba(225,17,66,0.69);
+  border-radius: 50%;
+  display: inline-block;
 }

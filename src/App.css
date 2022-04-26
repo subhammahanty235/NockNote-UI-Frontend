@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.notecard {
+  background-color: rgb(178, 241, 170) !important;
+  transition: all .3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notecard:hover {
+  border: 2px solid black;
+  transform: translateY(-15px);
+  -webkit-box-shadow:  10px 11px 24px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:  10px 11px 24px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 24px -8px rgba(0, 0, 0, 0.75);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body i {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body i:hover {
+  color: cornflowerblue;
+  font-size: 20px;
+  /* box-shadow: 10px 11px 24px -8px rgba(0, 0, 0, 0.75); */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#addnotesec {
+  transition: all 2s;
 }
